@@ -65,10 +65,10 @@ const tools=[{
     ]
 }]
 let History =[] // stores the history 
+
 let toolFunctions={
-    // make a reference so  in runagent dont have to manually right if else statement
-    "cryptoinfo":cryptoinfo,
-    "weatherinfo":weatherinfo
+    "crypto": crypto,
+    "wheather": wheather
 }
 
 
